@@ -1,5 +1,6 @@
 <p align="center"><h2>GROUP MEMBERSHIP LIST USING GOSSIP PROTOCOL</h2></p>
-\
+
+
 This machine programming assignment is a part of Coursera's course, Cloud Computing Concepts, Part 1, by University of Illinois at Urbana-Champaign.
 
 This program is about implementing a gossip-style distributed membership protocol. Since it is infeasible to run a thousand cluster nodes (peers) over a real network, the program has been implemented with the use of an emulated network layer (EmulNet). The membership protocol implementation will sit above EmulNet in a peer-to-peer (P2P) layer, but below an App layer. Think of this like a three-layer protocol stack with Application, P2P, and EmulNet as the three layers (from top to bottom).
